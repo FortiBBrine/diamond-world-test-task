@@ -1,0 +1,11 @@
+messages:
+  boss-killed:
+    - "Босс <display-name> был убит:"
+    - "1. <player-1> <player-damage-1>"
+    - "2. <player-2> <player-damage-2>"
+    - "3. <player-3> <player-damage-3>"
+actionbar: "<remain> / <max>"
+hologram:
+  - "<player-nickname>"
+  - "<display-name>"
+  - "<time>"
