@@ -1,0 +1,30 @@
+summoner:
+  id: summoner
+  type: ZOMBIE
+  display-name: "Призыватель"
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 100.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  spawn-time: 60
+  max-health: 100
+  damage: 5
+robber:
+  id: robber
+  type: PILLAGER
+  display-name: "Разоритель"
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 100.0
+    z: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  spawn-time: 60
+  max-health: 100
+  damage: 5

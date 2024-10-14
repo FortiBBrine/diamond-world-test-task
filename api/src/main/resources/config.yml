@@ -6,6 +6,7 @@ messages:
     - "3. <player-3> <player-damage-3>"
 actionbar: "<remain> / <max>"
 hologram:
-  - "<player-nickname>"
+  - "Привет,"
   - "<display-name>"
   - "<time>"
+jdbc-url: "jdbc:sqlite:plugins/database.db"

@@ -11,6 +11,10 @@ dependencies {
 }
 
 tasks {
+    copyPlugins {
+        enabled = false
+    }
+
     assemble {
         dependsOn(reobfJar)
     }

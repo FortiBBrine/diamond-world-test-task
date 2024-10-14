@@ -2,23 +2,22 @@ package me.fortibrine.boss.api.statistics.table;
 
 import com.j256.ormlite.field.DatabaseField;
 import com.j256.ormlite.table.DatabaseTable;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @DatabaseTable
+@NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 public class BossStatistics {
 
     @DatabaseField(canBeNull = false)
-    private final String id;
+    private String id;
 
     @DatabaseField(canBeNull = false)
-    private final short time;
+    private long time;
 
     @DatabaseField(canBeNull = false)
-    private final String bestPlayers;
+    private String bestPlayers;
 
 }
